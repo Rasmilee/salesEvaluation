@@ -50,11 +50,9 @@ credentials = data.frame(
 
 # function
 
-setwd("~/Rasmila/Thesis/RShiny/Data")
-detail_df <- read.csv("RestaurantSalesDetail.csv")
-master_df <- read.csv("RestaurantSalesMaster.csv")
-#detail_df <- read.csv("./Data/RestaurantSalesDetail.csv")
-#master_df <- read.csv("./Data/RestaurantSalesMaster.csv")
+
+detail_df <- read.csv("./RestaurantSalesDetail.csv")
+master_df <- read.csv("./RestaurantSalesMaster.csv")
 
 
 Get_RestaurantSales <- function(resturantName){
