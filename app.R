@@ -51,8 +51,8 @@ credentials = data.frame(
 # function
 
 
-detail_df <- read.csv("./RestaurantSalesDetail.csv")
-master_df <- read.csv("./RestaurantSalesMaster.csv")
+detail_df <- read.csv("RestaurantSalesDetail.csv")
+master_df <- read.csv("RestaurantSalesMaster.csv")
 
 
 Get_RestaurantSales <- function(resturantName){
